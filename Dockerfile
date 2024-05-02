@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1.4
 FROM --platform=$BUILDPLATFORM python:3.10-alpine AS builder
-EXPOSE 80:80
+EXPOSE 80
 
 WORKDIR /app
 
